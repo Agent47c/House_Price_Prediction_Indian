@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
-model=joblib.load("C:/Users/Hamza Ramzan/Documents/Python ML/Model.pkl")
+model=joblib.load("Random_Forest.pkl")
 st.title("India House Price Prediction")
 st.write("This App Predict Price Of Houses In India With The Help Of Machine Learning")
 st.write("Its Using Linear Regression Model For Predictions")
